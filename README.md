@@ -1,16 +1,24 @@
-## Hi there 👋
+# Personal Website
 
-<!--
-**davtheconquerer/davtheconquerer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+[My personal website hosted on GitHub Pages.](https://davtheconquerer.github.io)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## Sections
+- Software Development portfolio
+- YouTube & creative projects
+
+## Repo Structure
+
+```
+assets/                     # Contains all assets for my website
++-- icons/                  
++-- images/                 
+css/                        # Contains all CSS stylesheets for my website
++-- styles.css              # Currently only stylesheet in use
+pages/                      # All extra .html pages are here (excluding index.html)
++-- projects.html           # All software projects are displayed on this page
++-- youtube.html            # All my youtube channels/videos are linked and documented here
+index.html                  # The website homepage
+README.md                   # What you're reading right now lol
+```
