@@ -58,24 +58,52 @@ group dynamics, and cursed situations — skill is optional.
 </div>
 </section>
 
-
-<!-- TEMPLATE TO COPY PASTE
-
-<section class="video-template">
-<h2>Video Entry Template</h2>
-<pre>
-Title:
-Link:
-Concept:
-Why it worked / what I learned:
-</pre>
-</section>
-
--->
-
+<section class="yt-feed" id="yt-feed"></section>
 
 <footer>
 <a href="../index.html">← Back to home</a>
 </footer>
 </body>
+<script>
+const API_KEY = "AIzaSyCbwwePymFbwaITznAHSUw8nogNx3q1Ljw";
+const CHANNEL_IDS = [
+  "UCMmZ9MAZBYYXqd2SH5k0f4A",
+  "UCUrNb0wYumJOEknIILgX1Dg"
+];
+
+async function loadVideos(channelId) {
+  const res = await fetch(
+    `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=6&order=date&type=video&key=${API_KEY}`
+  );
+  const data = await res.json();
+  return data.items;
+}
+
+async function renderFeed() {
+  const container = document.getElementById("yt-feed");
+
+  for (const channel of CHANNEL_IDS) {
+    const videos = await loadVideos(channel);
+
+    videos.forEach(v => {
+      const card = document.createElement("a");
+      card.href = `https://youtube.com/watch?v=${v.id.videoId}`;
+      card.target = "_blank";
+      card.className = "yt-card";
+
+      card.innerHTML = `
+        <img src="${v.snippet.thumbnails.medium.url}">
+        <div class="yt-meta">
+          <h3>${v.snippet.title}</h3>
+          <p>${v.snippet.description.slice(0, 120)}...</p>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
+  }
+}
+
+renderFeed();
+</script>
 </html>

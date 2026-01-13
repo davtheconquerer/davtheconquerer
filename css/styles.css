@@ -140,6 +140,37 @@ border-radius: 50%;
 object-fit: cover;
 }
 
+/* YouTube Feed Styles */
+.yt-feed {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.yt-card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.yt-card img {
+  width: 320px;
+  border-radius: 8px;
+}
+
+.yt-meta h3 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.yt-meta p {
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+/* End YouTube Feed Styles */
+
 footer {
 text-align: center;
 padding: 2rem;
