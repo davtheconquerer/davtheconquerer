@@ -19,6 +19,6 @@ css/                        # Contains all CSS stylesheets for my website
 pages/                      # All extra .html pages are here (excluding index.html)
 +-- projects.html           # All software projects are displayed on this page
 +-- youtube.html            # All my youtube channels/videos are linked and documented here
-index.html                  # The website homepage
 README.md                   # What you're reading right now lol
+index.html                  # The website homepage
 ```
