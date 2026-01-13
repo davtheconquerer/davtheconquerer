@@ -7,6 +7,21 @@
 <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+<div class="parallax-bg">
+  <div class="bg-grid">
+    <img src="../assets/images/dartmoordavinfrontoflandscape.jpg" alt="" />
+    <img src="../assets/images/dartmoordav+saminfrontofsheep.jpg" alt="" />
+    <img src="../assets/images/breconviewfrombirdhide.jpg" alt="" />
+
+    <img src="../assets/images/breconsamsatnexttounbuilttent.jpg" alt="" />
+    <img src="../assets/images/breconpenyfan.JPG" alt="" />
+    <img src="../assets/images/brecondavwithredbull.JPG" alt="" />
+
+    <img src="../assets/images/brecondavtakingphotopenyfan.JPG" alt="" />
+    <img src="../assets/images/brecondavlookingup.JPG" alt="" />
+    <img src="../assets/images/brecondavlookingintothedistancepenyfan.JPG" alt="" />
+  </div>
+</div>
 <header class="hero">
 <nav class="nav">
 <h1 class="logo">David Williams</h1>
@@ -58,4 +73,12 @@ and genuine moments — from gaming chaos to adventure vlogs.
 <p>🌍 GitHub • YouTube • LinkedIn</p>
 </footer>
 </body>
+<script>
+  const grid = document.querySelector(".bg-grid");
+
+  window.addEventListener("scroll", () => {
+    const offset = window.scrollY * 0.15;
+    grid.style.transform = `translateY(${offset}px)`;
+  });
+</script>
 </html>
