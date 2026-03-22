@@ -47,7 +47,22 @@ Software Developer and Content Creator
 
 ## Featured Projects
 
-todo
+### 📂 [David's Portfolio (portfolio.davcore.net)](https://portfolio.davcore.net/)
+My personal portfolio website designed to showcase my projects, experience, and skills as a software developer and content creator. Features a clean UI, responsive design, and links to my active work.
+* **Tech Stack:**
+  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+* **Links:** [Live Site](https://portfolio.davcore.net/) | [View Code](https://github.com/davtheconquerer/portfolio)
+
+### 📝 [Personal Blog (blog.davcore.net)](https://blog.davcore.net)
+A lightweight, blazing-fast personal blog built with plain text Markdown and hosted entirely on a self-hosted Raspberry Pi. I created custom Bash scripts (`newpost.sh` and `deploy.sh`) to automate formatting, generating files, and pushing the static HTML to the live Nginx server.
+* **Tech Stack:** ![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=flat-square&logo=hugo&logoColor=white)
+  ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+  ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+  ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white)
+  ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+* **Links:** [Live Site](https://blog.davcore.net) | [View Code](https://github.com/davtheconquerer/personalblog)
 
 ## GitHub Stats
 
