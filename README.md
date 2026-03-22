@@ -10,7 +10,9 @@
 
 ## About Me
 
-todo
+Hi my name is David Williams *(aka davtheconquerer)*
+
+Software Developer and Content Creator
 
 ## Tech Stack
 
