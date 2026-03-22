@@ -66,7 +66,15 @@ A lightweight, blazing-fast personal blog built with plain text Markdown and hos
 
 ## GitHub Stats
 
-todo
+<div align="center">
+  
+  <img src="https://github-readme-stats.vercel.app/api?username=davtheconquerer&show_icons=true&theme=radical&hide_border=true" alt="David's GitHub Stats" />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=davtheconquerer&layout=compact&theme=radical&hide_border=true" alt="David's Top Languages" />
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=davtheconquerer&theme=radical&hide_border=true" alt="David's Contribution Streak" />
+
+</div>
 
 ## Let's Connect
 
