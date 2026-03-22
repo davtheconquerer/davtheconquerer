@@ -75,7 +75,3 @@ A lightweight, blazing-fast personal blog built with plain text Markdown and hos
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=davtheconquerer&theme=radical&hide_border=true" alt="David's Contribution Streak" />
 
 </div>
-
-## Let's Connect
-
-todo
