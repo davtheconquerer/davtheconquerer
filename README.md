@@ -5,12 +5,13 @@
 <p align="center">
   <a href="https://portfolio.davcore.net">Portfolio</a> •
   <a href="https://www.linkedin.com/in/davidwilliams1234/">LinkedIn</a> •
-  <a href="https://github.com/davtheconquerer">GitHub</a>
+  <a href="mailto:connect@davcore.net">Email</a>
 </p>
 
 ## About Me
 
 Hi my name is David Williams *(aka davtheconquerer)*
+I know my username is spelt wrong. Blame younger me but I'm not changing it.
 
 Software Developer and Content Creator
 
@@ -46,6 +47,19 @@ Software Developer and Content Creator
 </div align="center">
 
 ## Featured Projects
+
+### 📈 [FinSight](https://github.com/davtheconquerer/finsight)
+An open source light weight monitoring and statistics dashboard for Jellyfin.
+
+* **Tech Stack:**
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+  ![FastAPI](https://img.shields.io/badge/FastAPI-3776AB?style=flat-square&logo=fastapi&logoColor=white)
+  ![SQLite](https://img.shields.io/badge/SQLite-4479A1?style=flat-square&logo=sqlite&logoColor=white)
+  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+  ![Chart.js](https://img.shields.io/badge/Chart.js-E34F26?style=flat-square&logo=chart.js&logoColor=white)
+  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ### 📂 [David's Portfolio (portfolio.davcore.net)](https://portfolio.davcore.net/)
 My personal portfolio website designed to showcase my projects, experience, and skills as a software developer and content creator. Features a clean UI, responsive design, and links to my active work.
