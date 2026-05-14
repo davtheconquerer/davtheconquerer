@@ -60,16 +60,17 @@ An open source light weight monitoring and statistics dashboard for Jellyfin.
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
   ![Chart.js](https://img.shields.io/badge/Chart.js-E34F26?style=flat-square&logo=chart.js&logoColor=white)
   ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+* **Links:** [Demo Site](https://finsight-demo.davcore.net) | [View Code](https://github.com/davtheconquerer/finsight)
 
-### 📂 [David's Portfolio (portfolio.davcore.net)](https://portfolio.davcore.net/)
+### 📂 [David's Portfolio](https://github.com/davtheconquerer/portfolio)
 My personal portfolio website designed to showcase my projects, experience, and skills as a software developer and content creator. Features a clean UI, responsive design, and links to my active work.
 * **Tech Stack:**
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-* **Links:** [Live Site](https://portfolio.davcore.net/) | [View Code](https://github.com/davtheconquerer/portfolio)
+* **Links:** [Live Site](https://portfolio.davcore.net) | [View Code](https://github.com/davtheconquerer/portfolio)
 
-### 📝 [Personal Blog (blog.davcore.net)](https://blog.davcore.net)
+### 📝 [Personal Blog](https://github.com/davtheconquerer/personalblog)
 A lightweight, blazing-fast personal blog built with plain text Markdown and hosted entirely on a self-hosted Raspberry Pi. I created custom Bash scripts (`newpost.sh` and `deploy.sh`) to automate formatting, generating files, and pushing the static HTML to the live Nginx server.
 * **Tech Stack:** ![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=flat-square&logo=hugo&logoColor=white)
   ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
